@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --White: #fff;
+    --platinum: #e8ebe4;
+    --gray: #bec1bb;
+    --blueBell: #a491d2;
+    --soap: #cdc3e6;
+    --paleLavander: #d4dcff;
+    --darkJungle: #1b1f21;
+    --outerSpace: #444749;
+    --oldSilver: #828485;
+}
+
+/* Contenedor */
+.contenedor {
+    border: solid var(--platinum);
+    display: flex;
+}
+
+/* Contactos */
+.contactos {
+    border: solid var(--platinum) 2px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+    height: 100%;
+}
+
+.head {
+    display: flex;
+    margin: 2rem;
+    align-items: center;
+}
+.headtext {
+    width: 6rem;
+    margin-right: 3rem;
+}
+
+.head img {
+    border-radius: 50%;
+    width: 4.5rem;
+    margin: 0.5rem 2rem 0.5rem 2rem;
+}
+
+.head p {
+    margin: 0.5rem 0;
+}
+
+.head .xsText {
+    margin: 0;
+}
+
+.head i {
+    padding: 1rem;
+    color: var(--oldSilver);
+    font-size: 2rem;
+}
+
+
+.card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 50rem;
+}
+.new {
+    border-top: solid var(--platinum) 2px;
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.box {
+    border-top: solid var(--platinum) 2px;
+    padding: 2rem;
+}
+
+.boton {
+    background-color: var(--blueBell);
+    color: var(--White);
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-align: center;
+    width: 50%;
+}
+
+.boton:hover {
+    background-color: var(--soap);
+    cursor: pointer;
+}
+
+.boton:active {
+    background-color: var(--gray);
+}
+
+.contacto {
+    display: flex;
+    margin-left: 0;
+}
+.contacto img {
+    width: 6rem;
+    border-radius: 50%;
+    margin: 0.5rem 2rem 0.5rem 0
+}
+
+.contacto p {
+    margin: 0 1rem 0 0;
+}
+
+.nombre {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1.5rem;
+    height: 4rem;
+}
+
+/* Principal */
+.principal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal img {
+    width: 30rem;
+    border-radius: 5%;
+}
+
+.principal .xlText {
+    margin-bottom: 0;
+}
+.principal p {
+    text-align: center;
+
+}
